@@ -3,7 +3,7 @@ import shutil
 from pathlib import Path
 
 # --- CONFIGURATION ---
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 RAW_DIR = BASE_DIR / "data" / "RAW" / "CBIS-DDSM"
 CSV_DIR = RAW_DIR / "csv"
 JPEG_DIR = RAW_DIR / "jpeg"
